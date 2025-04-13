@@ -8,6 +8,9 @@
  An advanced event tracking and analytics platform designed to help developers capture, analyze, and react to user interactions efficiently.
 </p>
 <p align="center">
+  <a href="https://rubygems.org/gems/evntaly">
+    <img src="https://img.shields.io/gem/v/evntaly" alt="Gem Version">
+  </a>
   <a href="https://github.com/Evntaly/evntaly-ruby"><img src="https://img.shields.io/github/license/Evntaly/evntaly-ruby" alt="license"></a>
 </p>
 
@@ -26,11 +29,16 @@
 To install the SDK using `bundler`:
 
 ```sh
- gem 'evntaly', github: 'github.com/Evntaly/evntaly-ruby'
+ gem 'evntaly', '~> 1.0'
 ```
 and then run:
 ```
 bundle install
+```
+
+or install directly using:
+```
+gem install evntaly
 ```
 
 ## Usage
